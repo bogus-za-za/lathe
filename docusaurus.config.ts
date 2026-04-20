@@ -87,12 +87,43 @@ const config: Config = {
           position: 'left',
           label: '车床',
         },
-                {
+        {
           type: 'docSidebar',
           sidebarId: 'mtSidebar',
           position: 'left',
           label: '铣床',
         },
+        {
+          type:'docSidebar',
+          sidebarId:'MCSidebar',
+          position:'left',
+          label:'MasterCAM'
+        },
+        {
+          type:'docSidebar',
+          sidebarId:'UGSidebar',
+          position:'left',
+          label:'UG'
+        },
+        {
+          type:'docSidebar',
+          sidebarId:'VTSidebar',
+          position:'left',
+          label:'VT'
+        },
+        {
+          type:'docSidebar',
+          sidebarId:'CADSidebar',
+          position:'left',
+          label:'CAD'
+        },
+        {
+          type:'docSidebar',
+          sidebarId:'SWSidebar',
+          position:'left',
+          label:'SW'
+        }
+        
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'tutorialSidebar',
